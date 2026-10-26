@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Óptica Visión Clara | Armazones y Examen de la Vista en Tapachula</title>
+    <meta name="description" content="Catálogo digital de armazones oftálmicos, lentes de sol, micas con filtro azul y citas para examen de la vista en Tapachula.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="top-bar">
+        <span>👓 Examen de la vista por computadora · Entrega rápida en Tapachula</span>
+    </div>
+
+    <header class="navbar">
+        <div class="contenedor nav-contenido">
+            <a href="#" class="logo">👓 Óptica<span>Visión</span></a>
+            <nav class="nav-enlaces">
+                <a href="#catalogo">Catálogo de Armazones</a>
+                <a href="#micas">Tipos de Micas</a>
+                <a href="#citas">Agendar Examen</a>
+                <a href="#ubicacion">Ubicación</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-optica">
+        <div class="contenedor hero-grid">
+            <div class="hero-texto">
+                <span class="etiqueta-hero">✨ Salud Visual y Estilo en Tapachula</span>
+                <h1>Encuentra tu armazón ideal y cuida tu <span>vista hoy</span></h1>
+                <p>Explora nuestro catálogo de armazones oftálmicos, lentes solares y paquetes completos con micas graduadas. Aparta tu modelo o agenda tu examen de la vista en segundos.</p>
+                
+                <div class="hero-botones">
+                    <a href="#catalogo" class="btn-primario">Ver Catálogo de Lentes</a>
+                    <a href="#citas" class="btn-secundario">Agendar Examen de la Vista</a>
+                </div>
+
+                <div class="hero-beneficios">
+                    <div class="beneficio-item">✔️ <strong>Garantía</strong> en graduación</div>
+                    <div class="beneficio-item">✔️ <strong>Filtro Azul</strong> y Antirreflejante</div>
+                    <div class="beneficio-item">✔️ <strong>Atención</strong> personalizada</div>
+                </div>
+            </div>
+
+            <div class="hero-imagen-caja">
+                <img src="https://images.unsplash.com/photo-1574258495973-f010dfbb5371?auto=format&fit=crop&w=900&q=80" alt="Lentes y armazones modernos">
+                <div class="tarjeta-flotante-optica">
+                    <span class="icono-flotante">👁️</span>
+                    <div>
+                        <strong>¿Sientes vista cansada?</strong>
+                        <p>Agenda tu examen visual hoy mismo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="catalogo" class="seccion-catalogo contenedor">
+        <div class="encabezado-seccion">
+            <h2>Catálogo de Armazones y Paquetes</h2>
+            <p>Filtra por estilo o busca el material que prefieras. Toca cualquier modelo para ver sus medidas y qué micas incluye.</p>
+
+            <div class="buscador-optica">
+                <span>🔍</span>
+                <input type="text" id="input-buscador" placeholder="Buscar por estilo: dama, caballero, metal, acetato, filtro azul, sol...">
+            </div>
+        </div>
+
+        <div class="filtros-contenedor">
+            <button class="btn-filtro activo" data-categoria="todos">Todos (20)</button>
+            <button class="btn-filtro" data-categoria="dama">Armazones Dama</button>
+            <button class="btn-filtro" data-categoria="caballero">Armazones Caballero</button>
+            <button class="btn-filtro" data-categoria="paquetes">Paquetes con Micas</button>
+            <button class="btn-filtro" data-categoria="sol">Lentes de Sol y Clip-On</button>
+            <button class="btn-filtro" data-categoria="ninos">Infantil y Contacto</button>
+        </div>
+
+        <div id="catalogo-grid" class="catalogo-grid"></div>
+    </section>
+
+    <section id="micas" class="seccion-micas">
+        <div class="contenedor">
+            <div class="encabezado-seccion">
+                <h2>Personaliza tus Lentes con el Tratamiento Ideal</h2>
+                <p>Todos nuestros armazones pueden graduarse con la tecnología que tu vista necesita</p>
+            </div>
+
+            <div class="micas-grid">
+                <div class="mica-card">
+                    <div class="mica-icono">💻</div>
+                    <h3>Filtro de Luz Azul (Blue Block)</h3>
+                    <p>Ideal si usas computadora o celular por varias horas. Reduce la fatiga visual, el dolor de cabeza y mejora tu descanso.</p>
+                </div>
+                <div class="mica-card">
+                    <div class="mica-icono">☀️</div>
+                    <h3>Micas Fotocromáticas</h3>
+                    <p>Transparentes en interiores y se oscurecen automáticamente al salir al sol de Tapachula. Protección 100% UV.</p>
+                </div>
+                <div class="mica-card">
+                    <div class="mica-icono">✨</div>
+                    <h3>Antirreflejante Hidrofóbico</h3>
+                    <p>Elimina los molestos reflejos de las luces al manejar de noche y repele el agua, polvo y huellas fácilmente.</p>
+                </div>
+                <div class="mica-card">
+                    <div class="mica-icono">📖</div>
+                    <h3>Bifocales y Progresivos</h3>
+                    <p>Ve claro de lejos, distancia intermedia y de cerca con un solo par de lentes sin líneas divisorias visibles.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="citas" class="seccion-citas contenedor">
+        <div class="caja-citas">
+            <div class="citas-info">
+                <span class="etiqueta-clara">📅 Atención sin filas</span>
+                <h2>Agenda tu Examen de la Vista por WhatsApp</h2>
+                <p>Selecciona qué día y horario te queda mejor para esperarte en sucursal. También puedes mandarnos foto de tu receta actual si solo deseas cotizar micas o armazón.</p>
+            </div>
+
+            <div class="citas-formulario">
+                <div class="campo-form">
+                    <label for="cita-motivo">¿Qué servicio necesitas?</label>
+                    <select id="cita-motivo">
+                        <option value="Examen de la vista y lentes completos">Examen de la vista + Lentes completos</option>
+                        <option value="Solo examen de la vista">Solo realizarme el examen de la vista</option>
+                        <option value="Ya tengo receta y quiero cotizar micas/armazón">Ya tengo mi graduación / Cotizar receta</option>
+                        <option value="Ajuste o cambio de micas a mi armazón">Cambio de micas a mi propio armazón</option>
+                    </select>
+                </div>
+
+                <div class="campo-doble">
+                    <div class="campo-form">
+                        <label for="cita-dia">Día preferido:</label>
+                        <select id="cita-dia">
+                            <option value="Hoy">Hoy mismo</option>
+                            <option value="Mañana">Mañana</option>
+                            <option value="Entre semana">Esta semana</option>
+                            <option value="El fin de semana">Sábado / Fin de semana</option>
+                        </select>
+                    </div>
+                    <div class="campo-form">
+                        <label for="cita-turno">Horario:</label>
+                        <select id="cita-turno">
+                            <option value="Por la mañana (9:00 AM - 1:00 PM)">Por la mañana</option>
+                            <option value="Por la tarde (1:00 PM - 5:00 PM)">Al mediodía / Tarde</option>
+                            <option value="Después de las 5:00 PM">Después de las 5:00 PM</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button id="btn-enviar-cita" class="btn-agendar-wa">
+                    Confirmar Cita por WhatsApp 📲
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="ubicacion" class="seccion-ubicacion">
+        <div class="contenedor">
+            <div class="panel-ubicacion">
+                <h3>📍 Visita Nuestra Sucursal en Tapachula</h3>
+                <p id="texto-direccion" class="dir-principal"></p>
+                <p class="horario-optica">🕘 <strong>Horario de atención:</strong> Lunes a Sábado de 9:00 AM a 8:00 PM</p>
+                
+                <div class="botones-ubicacion">
+                    <a href="#" id="btn-google-maps" target="_blank" class="btn-maps">
+                        📍 Ver Ruta en Google Maps
+                    </a>
+                    <a href="#" id="btn-llamar" class="btn-llamar">
+                        📞 Llamar a Sucursal: <span id="numero-visible"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>© 2026 Óptica Visión Clara · Tapachula, Chiapas. Salud visual a tu alcance.</p>
+    </footer>
+
+    <div id="modal-lente" class="modal-fondo">
+        <div class="modal-contenido">
+            <button id="cerrar-modal" class="modal-cerrar">&times;</button>
+            <div class="modal-cuerpo">
+                <div class="modal-imagen-contenedor">
+                    <span id="modal-etiqueta" class="etiqueta-card"></span>
+                    <img id="modal-img" src="" alt="Foto del armazón">
+                </div>
+                <div class="modal-info">
+                    <span id="modal-categoria" class="modal-cat-texto"></span>
+                    <h2 id="modal-titulo">Modelo de Armazón</h2>
+                    <p id="modal-precio" class="modal-precio">$0 MXN</p>
+                    
+                    <div class="modal-seccion">
+                        <h4>Descripción del modelo:</h4>
+                        <p id="modal-descripcion"></p>
+                    </div>
+
+                    <div class="modal-seccion">
+                        <h4>👓 Características y qué incluye:</h4>
+                        <ul id="modal-detalles" class="lista-detalles"></ul>
+                    </div>
+
+                    <a href="#" id="modal-btn-whatsapp" target="_blank" class="btn-whatsapp-modal">
+                        Apartar o Cotizar con mi Graduación
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" id="btn-whatsapp-flotante" target="_blank" class="whatsapp-flotante">
+        <span>💬 ¿Dudas o cotizaciones? Escríbenos</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
